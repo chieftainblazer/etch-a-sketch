@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+}
