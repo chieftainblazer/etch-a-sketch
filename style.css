@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 960px;
+  height: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grid-row {
+  outline: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+
+.grid-element {
+  outline: 1px solid black;
+  flex: 1;
+}
+
